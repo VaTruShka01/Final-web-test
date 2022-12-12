@@ -1,0 +1,38 @@
+@media screen and (max-width: 560px){
+
+
+nav ul a {
+    padding: 0;
+}
+
+
+#main-header h1{
+    font-size: 2em;
+}
+
+    header {
+        text-align: center;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    #social-nav li  {
+        margin: 5px;
+    }
+
+    #main-nav {
+        font-size: 0.8em;
+    }
+
+
+    }

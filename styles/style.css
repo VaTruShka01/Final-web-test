@@ -1,0 +1,147 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+
+#main-nav ul {
+display: flex;
+justify-content: space-around;
+height: 50px;
+align-items: center;
+background-color: #2d3436;
+}
+
+#main-nav li a {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav li a:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+/* HEADER */
+
+#main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#main-header h1{
+color: aliceblue;
+font-size: 3em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: -3px 3px #2d3436;
+}
+
+#main-header h2 {
+    color: aliceblue;
+font-size: 2em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: -2px 0px #2d3436;
+}
+
+
+/* MAIN CONTENT */
+
+#main-content {
+    display: flex;
+    padding-top: 40px;
+}
+
+
+
+/* MAIN */
+
+main {
+    padding: 20px;
+}
+main figure {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    float: left;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main figure a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    
+}
+
+main img {
+    width: 200px;
+    
+}
+
+
+/* ASIDE */
+
+aside strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+aside {
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+aside h2{
+    font-size: 1.5em;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+aside li{
+margin: 10px;
+padding: 15px;
+}
+
+aside li:nth-child(even) {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #2d3436;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+footer img {
+    width: 50px;
+}
+
+#social-nav ul {
+display: flex;
+
+}
+
+#social-nav li {
+   margin: 15px; 
+}
+
+footer p {
+    color: aliceblue;
+}
